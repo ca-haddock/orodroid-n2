@@ -32,3 +32,6 @@ booti ${loadaddr} ${initrd_loadaddr} ${dtb_loadaddr}
 Anschließend kann der Mainline Kernel von ArchLinux ARM oder einer beliebigen Quelle installiert werden.
 Im Beispiel wird das Aarch64 Paket gewählt, also ein 64bit System.
 Installation Mainline Linux Kernel auf ODROID N2
+
+$ pacman -S linux-aarch64
+
